@@ -18,6 +18,10 @@ uvicorn main:app --reload
 
 FAQ:
 
+Q: How to call get api method?
+
+A: curl -X GET http://127.0.0.1:8000/ -H 'accept: application/json' 
+
 Q: How to add user by post HTTP method?
 
 A:
